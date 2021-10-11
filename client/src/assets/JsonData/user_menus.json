@@ -1,0 +1,18 @@
+[
+    {
+        "icon": "fa fa-drivers-license-o",
+        "content": "Profile"
+    },
+    {
+        "icon": "fa fa-credit-card",
+        "content": "My Wallet"
+    },
+    {
+        "icon": "fa fa-gear",
+        "content": "Settings"
+    },
+    {
+        "icon": "fa fa-hand-peace-o",
+        "content": "Logout"
+    }
+]

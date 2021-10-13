@@ -9,6 +9,15 @@
   --second-color: #355969;
   --box-shadow: rgba(149, 157, 165, 2) 0px 8px 18px;
 
+  --main-color-red: #ff0022;
+  --second-color-red: #a02121;
+  --main-color-green: #115f2f;
+  --second-color-green: #21a041;
+  --main-color-blue: #002fff;
+  --second-color-blue: #2129a0;
+  --main-color-orange: #ff7300;
+  --second-color-orange: #a06521;
+
   --sidebar-width: 300px;
   --border-radius: 15px;
   --topnav-height: 110px;
@@ -83,15 +92,12 @@ input:focus {
   text-transform: capitalize;
 }
 
-.card__header ~ .card__body {
+.card > div ~ div {
   margin-top: 30px;
-}
-
-.card__body {
-
 }
 
 .card__footer {
   text-align: center;
   text-transform: capitalize;
 }
+

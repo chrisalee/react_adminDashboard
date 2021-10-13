@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Customers = () => {
     return (
@@ -8,4 +8,4 @@ const Customers = () => {
     )
 }
 
-export default Customers
+export default Customers;

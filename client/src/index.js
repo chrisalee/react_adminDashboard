@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-
 import Layout from './components/layout/Layout';
+import './assets/css/grid.css';
 
 // document.title = 'CAL Dashboard';
 

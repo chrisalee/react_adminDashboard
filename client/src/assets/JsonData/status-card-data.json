@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "fa fa-bar-chart",
+        "count": "1,995",
+        "title": "Total sales"
+    },
+    {
+        "icon": "fa fa-universal-access",
+        "count": "2,001",
+        "title": "Daily visits"
+    },
+    {
+        "icon": "fa fa-dollar",
+        "count": "$2,632",
+        "title": "Total income"
+    },
+    {
+        "icon": "fa fa-barcode",
+        "count": "1,711",
+        "title": "Total orders"
+    }
+]

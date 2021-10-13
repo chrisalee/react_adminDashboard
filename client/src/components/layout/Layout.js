@@ -2,7 +2,7 @@ import React from "react";
 import "./Layout.css";
 import { BrowserRouter, Route } from "react-router-dom";
 import Sidebar from "../sidebar/Sidebar";
-import Routes from "./Routes";
+import Routes from "../Routes";
 import TopNav from "../topnav/TopNav";
 
 const Layout = () => {

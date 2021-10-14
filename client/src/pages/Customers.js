@@ -19,8 +19,8 @@ const renderBody = (item, index) => (
     <td>{item.name}</td>
     <td>{item.email}</td>
     <td>{item.phone}</td>
-    <td>{item.total_orders}</td>
-    <td>{item.total_spend}</td>
+    <td>{item.total_orders.toLocaleString("en-US")}</td>
+    <td>{item.total_spend.toLocaleString("en-US")}</td>
     <td>{item.location}</td>
   </tr>
 );

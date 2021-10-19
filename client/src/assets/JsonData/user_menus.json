@@ -9,10 +9,12 @@
     },
     {
         "icon": "fa fa-gear",
-        "content": "Settings"
+        "content": "Settings",
+        "route": "/settings"
     },
     {
         "icon": "fa fa-hand-peace-o",
-        "content": "Logout"
+        "content": "Logout",
+        "route": "/"
     }
 ]

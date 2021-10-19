@@ -1,10 +1,11 @@
 import React from "react";
 import "./TopNav.css";
-import notifications from "../../assets/JsonData/notifications.json";
-import Dropdown from "../dropdown/Dropdown";
 import { Link } from "react-router-dom";
-import user_image from "../../assets/images/user.png";
+import notifications from "../../assets/JsonData/notifications.json";
 import user_menu from "../../assets/JsonData/user_menus.json";
+import user_image from "../../assets/images/user.png";
+import Dropdown from "../dropdown/Dropdown";
+import ThemeMenu from "../thememenu/ThemeMenu";
 
 const current_user = {
   display_name: "Chris",
@@ -61,7 +62,7 @@ const TopNav = () => {
           />
         </div>
         <div className="topnav__right-item">
-          <Dropdown />
+          <ThemeMenu />
         </div>
       </div>
     </div>

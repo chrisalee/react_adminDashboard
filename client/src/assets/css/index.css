@@ -27,6 +27,8 @@
   --second-color-blue: #2129a0;
   --main-color-orange: #ff7300;
   --second-color-orange: #a06521;
+  --main-color-cyan: #00d9ff;
+  --second-color-cyan: #2197a0;
 
   --sidebar-width: 300px;
   --border-radius: 15px;
@@ -111,3 +113,37 @@ input:focus {
   text-transform: capitalize;
 }
 
+.light-background {
+  background-color: var(--main-bg-light);
+  color: #000;
+}
+
+.dark-background {
+  background-color: var(--main-bg-dark);
+  color: #fff;
+}
+
+.blue-color {
+  background-color: var(--main-color-blue);
+  color: #fff;
+}
+
+.red-color {
+  background-color: var(--main-color-red);
+  color: #fff;
+}
+
+.orange-color {
+  background-color: var(--main-color-orange);
+  color: #fff;
+}
+
+.green-color {
+  background-color: var(--main-color-green);
+  color: #fff;
+}
+
+.cyan-color {
+  background-color: var(--main-color-cyan);
+  color: #fff;
+}

@@ -13,26 +13,26 @@
 }
 
 .theme-color-blue {
-    --main-bg: var(--main-bg-blue);
-    --second-bg: var(--second-bg-blue);
+    --main-color: var(--main-color-blue);
+    --second-color: var(--second-color-blue);
 }
 
 .theme-color-red {
-    --main-bg: var(--main-bg-red);
-    --second-bg: var(--second-bg-red);
+    --main-color: var(--main-color-red);
+    --second-color: var(--second-color-red);
 }
 
 .theme-color-green {
-    --main-bg: var(--main-bg-green);
-    --second-bg: var(--second-bg-green);
+    --main-color: var(--main-color-green);
+    --second-color: var(--second-color-green);
 }
 
 .theme-color-orange {
-    --main-bg: var(--main-bg-orange);
-    --second-bg: var(--second-bg-orange);
+    --main-color: var(--main-color-orange);
+    --second-color: var(--second-color-orange);
 }
 
 .theme-color-cyan {
-    --main-bg: var(--main-bg-cyan);
-    --second-bg: var(--second-bg-cyan);
+    --main-color: var(--main-color-cyan);
+    --second-color: var(--second-color-cyan);
 }

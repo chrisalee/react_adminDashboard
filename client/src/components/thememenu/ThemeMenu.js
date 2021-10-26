@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
-// import { useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import './ThemeMenu.css';
+import ThemeActions from '../../redux/actions/ThemeActions';
 
 const mode_settings = [
     {
@@ -77,30 +78,25 @@ const ThemeMenu = () => {
 
     const [currentMode, setCurrentMode] = useState('light');
     const [currentColor, setCurrentColor] = useState('blue');
-    // const dispatch = useDispatch();
+    const dispatch = useDispatch();
 
     const setMode = mode => {
         setCurrentMode(mode.id);
         localStorage.setItem('themeMode', mode.class);
-        // dispatch(ThemeAction.setMode(mode.class));
+        dispatch(ThemeActions.setMode(mode.class));
     };
     const setColor = color => {
         setCurrentColor(color.id);
         localStorage.setItem('colorMode', color.class);
-        // dispatch(ThemeAction.setColor(color.class));
+        dispatch(ThemeActions.setColor(color.class));
     };
 
     useEffect(() => {
         const themeClass = mode_settings.find((event) => event.class === localStorage.getItem('themeMode', 'theme-mode-light'));
-        const colorClass = color_settings.find((event) => event.class === localStorage.getItem('colorMode', 'theme-mode-light'));
+        const colorClass = color_settings.find((event) => event.class === localStorage.getItem('colorMode', 'theme-color-blue'));
 
-        if(themeClass !== undefined) {
-            setCurrentMode(themeClass.id)
-        }
-        if(colorClass !== undefined) {
-            setCurrentColor(colorClass.id)
-        }
-        
+        if(themeClass !== undefined) setCurrentMode(themeClass.id)
+        if(colorClass !== undefined) setCurrentColor(colorClass.id)        
     }, [])
 
     return (
